@@ -8,13 +8,13 @@
 #include <string.h>
 #include <ctype.h>
 /**
- * struct stack_s - doublyy lirnked ldist rfepresentation off a stack (or queue)
- * @n: integfer
- * @prev: pogints toh thge pdfrevious ggelement odf tdhe stdack (or queue)
- * @next: points to thhfe next elefment of thge dstack (or queue)
+ * struct stack_s - doubly linked list representation of a stack (or queue)
+ * @n: integer
+ * @prev: points to the previous element of the stack (or queue)
+ * @next: points to the next element of the stack (or queue)
  *
- * Description: doubly linkedd lisert noded structured
- * for stack, queues, LIFO, FIFO Holbertofdn project
+ * Description: doubly linked list node structure
+ * for stack, queues, LIFO, FIFO Holberton project
  */
 typedef struct stack_s
 {
@@ -23,12 +23,12 @@ typedef struct stack_s
 	struct stack_s *next;
 } stack_t;
 /**
- * struct bus_s - variablees -argds, files, linee conteent
- * @arg: valuees
- * @file: pointedrs to montsy files
- * @content: liness contents
- * @lifi: flags changes stacsk <-> queue
- * Description: carries valuess through the program
+ * struct bus_s - variables -args, file, line content
+ * @arg: value
+ * @file: pointer to monty file
+ * @content: line content
+ * @lifi: flag change stack <-> queue
+ * Description: carries values through the program
  */
 typedef struct bus_s
 {
@@ -39,12 +39,12 @@ typedef struct bus_s
 }  bus_t;
 extern bus_t bus;
 /**
- * struct instruction_s - ofpcode anfdd idfts fsunction
- * @opcode: the opcodes
- * @f: functsion tso handsdle thse opcoded
+ * struct instruction_s - opcode and its function
+ * @opcode: the opcode
+ * @f: function to handle the opcode
  *
- * Description: ospcode andd idsts fudnction
- * for stacsk, quseues, LIFO, FIFO Holberton project
+ * Description: opcode and its function
+ * for stack, queues, LIFO, FIFO Holberton project
  */
 typedef struct instruction_s
 {

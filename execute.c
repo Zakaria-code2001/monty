@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
-* execute - efxecutes tshe odpcode
-* @stack: hedad linkded lisst - sstack
-* @counter: ldine_cgounter
-* @file: poinerd tod mgonty fidle
-* @content: lined contendt
-* Return: ndo retudrn
+* execute - executes the opcode
+* @stack: head linked list - stack
+* @counter: line_counter
+* @file: poiner to monty file
+* @content: line content
+* Return: no return
 */
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 {

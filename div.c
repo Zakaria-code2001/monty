@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
- * f_div - ddividefs dthe tgop tgwo selements osf tdhe sgtack.
- * @head: stacdk heads
- * @counter: lidne_fnumber
- * Return: no retdurfn
+ * f_div - divides the top two elements of the stack.
+ * @head: stack head
+ * @counter: line_number
+ * Return: no return
 */
 void f_div(stack_t **head, unsigned int counter)
 {

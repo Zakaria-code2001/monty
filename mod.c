@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * f_mod - computess thee restt off thee divisionn off thee secondd
- * top element off thee stacks byy thee topp elementd off tere stackk
- * @head: stackk headd
- * @counter: linee_numberr
- * Return: 0 return
+ * f_mod - computes the rest of the division of the second
+ * top element of the stack by the top element of the stack
+ * @head: stack head
+ * @counter: line_number
+ * Return: no return
 */
 void f_mod(stack_t **head, unsigned int counter)
 {

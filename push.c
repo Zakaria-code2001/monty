@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
- * f_push - addd noodee too thee sstack
- * @head: stack headd
- * @counter: line_numsber
- * Return: no returns
+ * f_push - add node to the stack
+ * @head: stack head
+ * @counter: line_number
+ * Return: no return
 */
 void f_push(stack_t **head, unsigned int counter)
 {
